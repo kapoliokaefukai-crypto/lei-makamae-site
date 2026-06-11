@@ -318,6 +318,26 @@ h3 {
   font-size: 14px;
 }
 
+.materials-note {
+  margin-top: 28px;
+  padding: clamp(24px, 4vw, 34px);
+  border: 1px solid rgba(87, 114, 96, 0.18);
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(248, 239, 226, 0.74));
+  box-shadow: 0 16px 36px rgba(75, 54, 35, 0.06);
+}
+
+.materials-note h3 {
+  font-size: clamp(21px, 2.5vw, 28px);
+}
+
+.materials-note p:last-child {
+  max-width: 920px;
+  margin: 12px 0 0;
+  color: var(--soft-ink);
+  font-size: 15px;
+}
+
 .gallery-layout {
   display: grid;
   grid-template-columns: 0.45fr 1fr;
@@ -646,6 +666,17 @@ h3 {
               </div>
             </article>
           </div>
+
+          <section class="materials-note" aria-labelledby="materials-title">
+            <p class="eyebrow">Materials</p>
+            <h3 id="materials-title">安心して使える素材を選んでいます。</h3>
+            <p>
+              使用するパラコードは、アメリカMIL-SPEC認定工場で作られたものを採用しています。
+              表皮・中芯ともにナイロン製で、毎日のお散歩に使いやすい丈夫さを大切にしています。
+              ナスカン、丸カン（Dカン）、ハーフチョークチェーン金具は日本製、
+              バックルはアメリカ製のものを使用しています。
+            </p>
+          </section>
         </div>
       </section>
 
